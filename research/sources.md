@@ -8,7 +8,7 @@ This research focuses on identifying repeatable frameworks, content patterns, an
 
 ---
 
-# Expert Selection Criteria
+## Expert Selection Criteria
 
 Experts were selected based on the following criteria:
 
@@ -20,7 +20,7 @@ Experts were selected based on the following criteria:
 
 ---
 
-# Selected Experts
+## Selected Experts
 
 | # | Expert               | Category                               | Primary Research Source | LinkedIn Profile                               | Why Included                                                                                       |
 | - | -------------------- | -------------------------------------- | ----------------------- | ---------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -36,19 +36,17 @@ Experts were selected based on the following criteria:
 
 ---
 
-# Research Methodology
+## Research Methodology
 
 This project follows a hybrid research approach designed to balance research quality, technical feasibility, and learning outcomes.
 
 The research intentionally combines different content formats to capture both strategic thinking and practical execution.
 
-* **YouTube transcripts** were used to understand expert frameworks, philosophies, and long-form explanations.
-* **LinkedIn posts** were analyzed to observe how experts apply these principles in real-world scenarios.
-* The project prioritizes **signal quality over exhaustive coverage**.
+* YouTube transcripts were used to understand expert frameworks, philosophies, and long-form explanations.
+* LinkedIn posts were analyzed to observe how experts apply these principles in real-world scenarios.
+* The project prioritizes signal quality over exhaustive coverage.
 
----
-
-## LinkedIn Content Collection
+### LinkedIn Content Collection
 
 Recent LinkedIn posts were manually identified from publicly accessible expert profiles. Manual curation was chosen because LinkedIn provides limited public API access and employs strict anti-scraping measures.
 
@@ -62,9 +60,7 @@ For every post analyzed, the following information was documented:
 * Why the post was effective.
 * Implications for B2B growth practitioners.
 
----
-
-## YouTube Transcript Collection
+### YouTube Transcript Collection
 
 Selected video transcripts were collected programmatically using the `youtube-transcript-api` Python library.
 
@@ -81,7 +77,7 @@ Only videos that provided actionable frameworks, detailed explanations, or strat
 
 ---
 
-# Repository Structure
+## Repository Structure
 
 ```text
 research/
@@ -92,11 +88,13 @@ research/
 
 scripts/
 └── youtube_transcript_fetcher.py
+
+README.md
 ```
 
 ---
 
-# Expected Deliverables
+## Expected Deliverables
 
 By the completion of this project, the repository will contain:
 
@@ -108,7 +106,7 @@ By the completion of this project, the repository will contain:
 
 ---
 
-# Limitations
+## Limitations
 
 * LinkedIn content analysis is based on publicly available posts at the time of research.
 * The project prioritizes depth of analysis over exhaustive coverage.
@@ -118,6 +116,6 @@ By the completion of this project, the repository will contain:
 
 ---
 
-# Date Initiated
+## Date Initiated
 
 11 June 2026
